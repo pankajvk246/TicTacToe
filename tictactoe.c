@@ -295,13 +295,11 @@ int main()
             else
             {
                 int randomPositon = rand() % size;
-                printf("randomPositon %d", randomPositon);
 
                 // assin position randomly
                 for (int i = 0; i < size; i++)
                 {
                     position = random[randomPositon];
-                    printf("position %d", position);
                 }
                 // delete the element
                 for (int i = randomPositon; i < size; i++)
